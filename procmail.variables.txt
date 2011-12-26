@@ -13,7 +13,7 @@ SHELL=/bin/sh
 # Directory for storing procmail configuration and log files
 # You can name this variable anything you like, for example
 # PROCMAILDIR, or don't set it (but then don't refer to it!)
-PMDIR=$HOME/.procmail
+PMDIR=$HOME/.procmail.d
 
 # LOGFILE should be specified ASAP so everything below it is logged
 # Put ## before the next line if you want no logging (not recommended)
