@@ -8,16 +8,16 @@
 # Setting SHELL should not be needed for the simple sorting recipes in
 # this step-by-step section, but to be safe and to future proof your
 # procmailrc, set it anyway! Details are in Check Your $SHELL and $PATH.
-SHELL=/bin/sh
+SHELL=/usr/bin/zsh
 
 # Directory for storing procmail configuration and log files
 # You can name this variable anything you like, for example
 # PROCMAILDIR, or don't set it (but then don't refer to it!)
-PMDIR=$HOME/.procmail.d
+PROCMAILDIR=$HOME/.procmail.d
 
 # LOGFILE should be specified ASAP so everything below it is logged
 # Put ## before the next line if you want no logging (not recommended)
-LOGFILE=$PMDIR/procmail.log
+LOGFILE=$PROCMAILDIR/procmail.log
 
 # To insert a blank line between each message's log entry in $LOGFILE,
 # uncomment the next two lines (this is helpful for debugging)
